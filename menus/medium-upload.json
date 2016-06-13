@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Draft medium-upload",
+        "command": "medium-upload:draft"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "medium-upload",
+          "submenu": [
+            {
+              "label": "Publish Draft",
+              "command": "medium-upload:draft"
+            },
+            {
+              "label": "Publish Public Story",
+              "command": "medium-upload:publish"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

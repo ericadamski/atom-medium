@@ -1,0 +1,17 @@
+{
+  "name": "medium-upload",
+  "main": "./lib/medium-upload",
+  "version": "0.0.1",
+  "description": "Write a blog entry and upload it directly to Medium.",
+  "keywords": [],
+  "activationHooks": ["language-markdown:grammer-used"],
+  "repository": "https://github.com/atom/medium-upload",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "medium-sdk": "0.0.3",
+    "moment": "^2.13.0"
+  }
+}
