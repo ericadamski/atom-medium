@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Draft medium-upload",
-        "command": "medium-upload:draft"
+        "label": "toggle medium-upload",
+        "command": "medium-upload:toggle"
       }
     ]
   },

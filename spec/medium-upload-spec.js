@@ -8,15 +8,14 @@ import MediumUpload from '../lib/medium-upload';
 // or `fdescribe`). Remove the `f` to unfocus the block.
 
 describe('MediumUpload', () => {
-  let workspaceElement;
-  let activationPromise;
+  let workspaceElement, activationPromise;
 
   beforeEach(() => {
     workspaceElement = atom.views.getView(atom.workspace);
     activationPromise = atom.packages.activatePackage('medium-upload');
   });
 
-  describe('when the medium-upload:draft event is triggered', () => {
+  describe('when the medium-upload:toggle event is triggered', () => {
     it('hides and shows the modal panel', () => {
       // Before the activation event the view is not on the DOM, and no panel
       // has been created
@@ -24,9 +23,11 @@ describe('MediumUpload', () => {
 
       // This is an activation event, triggering it will cause the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'medium-upload:draft');
+      atom.commands.dispatch(workspaceElement, 'medium-upload:toggle');
 
-      waitsForPromise(() => activationPromise);
+      waitsForPromise(() => {
+        return activationPromise;
+      });
 
       runs(() => {
         expect(workspaceElement.querySelector('.medium-upload')).toExist();
@@ -36,7 +37,7 @@ describe('MediumUpload', () => {
 
         let mediumUploadPanel = atom.workspace.panelForItem(mediumUploadElement);
         expect(mediumUploadPanel.isVisible()).toBe(true);
-        atom.commands.dispatch(workspaceElement, 'medium-upload:draft');
+        atom.commands.dispatch(workspaceElement, 'medium-upload:toggle');
         expect(mediumUploadPanel.isVisible()).toBe(false);
       });
     });
@@ -54,15 +55,17 @@ describe('MediumUpload', () => {
 
       // This is an activation event, triggering it causes the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'medium-upload:draft');
+      atom.commands.dispatch(workspaceElement, 'medium-upload:toggle');
 
-      waitsForPromise(() => activationPromise);
+      waitsForPromise(() => {
+        return activationPromise;
+      });
 
       runs(() => {
         // Now we can test for view visibility
         let mediumUploadElement = workspaceElement.querySelector('.medium-upload');
         expect(mediumUploadElement).toBeVisible();
-        atom.commands.dispatch(workspaceElement, 'medium-upload:draft');
+        atom.commands.dispatch(workspaceElement, 'medium-upload:toggle');
         expect(mediumUploadElement).not.toBeVisible();
       });
     });

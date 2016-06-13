@@ -5,7 +5,7 @@ import { Authenticate } from '../lib/authenticate';
 describe('Authentication', () => {
   var auth;
 
-  jasmine.getEnv().defaultTimeoutInterval = 40000;
+  // jasmine.getEnv().defaultTimeoutInterval = 40000;
 
   beforeEach(() => auth = new Authenticate());
 

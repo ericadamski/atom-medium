@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt-u": "medium-upload:draft"
+    "ctrl-alt-u": "medium-upload:draft",
+    "ctrl-alt-o": "medium-upload:toggle"
   }
 }
