@@ -1,13 +1,13 @@
 {
   "name": "medium-upload",
   "main": "./lib/medium-upload",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Write a blog entry and upload it directly to Medium.",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "medium-upload:toggle"
   },
-  "repository": "https://github.com/atom/medium-upload",
+  "repository": "https://github.com/ericadamski/atom-medium-upload",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -15,6 +15,7 @@
   "dependencies": {
     "jquery": "^3.0.0",
     "medium-sdk": "0.0.3",
-    "moment": "^2.13.0"
+    "moment": "^2.13.0",
+    "underscore.string": "^3.3.4"
   }
 }
