@@ -1,7 +1,7 @@
 {
   "name": "medium-upload",
   "main": "./lib/medium-upload",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Write a blog entry and upload it directly to Medium.",
   "keywords": [],
   "activationCommands": {
