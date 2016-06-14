@@ -1,5 +1,7 @@
 # Medium Upload
 
+[@ericadamski](https://medium.com/@ericadamski) [@zealigan](https://twitter.com/@zealigan)
+
 Write your Medium stories in Atom like a hacker and upload them to directly Medium as a draft or a public story.
 
 ![info-bar](https://raw.githubusercontent.com/ericadamski/atom-medium-upload/master/assets/info-bar.png)
