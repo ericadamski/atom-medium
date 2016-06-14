@@ -13,6 +13,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "jquery": "^3.0.0",
     "medium-sdk": "0.0.3",
     "moment": "^2.13.0"
   }

@@ -2,7 +2,7 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "toggle medium-upload",
+        "label": "Write Medium Post",
         "command": "medium-upload:toggle"
       }
     ]
@@ -15,12 +15,8 @@
           "label": "medium-upload",
           "submenu": [
             {
-              "label": "Publish Draft",
-              "command": "medium-upload:draft"
-            },
-            {
-              "label": "Publish Public Story",
-              "command": "medium-upload:publish"
+              "label": "Write Medium Post",
+              "command": "medium-upload:toggle"
             }
           ]
         }
