@@ -14,6 +14,11 @@ The package currently looks for file names with the `.md` extension, and uses th
 
 ex. filename 'My-Post.md' story title 'My Post'
 
+# Roadmap
+
+- Implement Medium like editor inside Atom (without auto rendering)
+- Allow for image upload (when the Medium Node SDK allows for it)
+
 # Development
 
 This repository is for Atom plugin development!
