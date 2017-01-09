@@ -3,7 +3,15 @@
   "main": "./lib/medium-upload",
   "version": "0.1.2",
   "description": "Write a blog entry and upload it directly to Medium.",
-  "keywords": [],
+  "contributors": [
+    "Eric Adamski <er.adamski@gmail.com>",
+    "Chris Ward <chriswhward@gmail.com>"
+  ],
+  "keywords": [
+    "medium",
+    "blog",
+    "medium posting"
+  ],
   "activationCommands": {
     "atom-workspace": "medium-upload:toggle"
   },

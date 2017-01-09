@@ -1,7 +1,5 @@
 # Medium Upload
 
-[@ericadamski](https://medium.com/@ericadamski) [@zealigan](https://twitter.com/@zealigan)
-
 Write your Medium stories in Atom like a hacker and upload them to directly Medium as a draft or a public story.
 
 ![info-bar](https://raw.githubusercontent.com/ericadamski/atom-medium-upload/master/assets/info-bar.png)
@@ -20,6 +18,16 @@ ex. filename 'My-Post.md' story title 'My Post'
 
 - Implement Medium like editor inside Atom (without auto rendering)
 - Allow for image upload (when the Medium Node SDK allows for it)
+
+# Collaborators
+
+@ericadamski
+- [Medium](https://medium.com/@ericadamski)
+- [Twitter](https://twitter.com/zealigan)
+
+@ChrisChinchilla
+- [Medium](https://medium.com/@ChrisChinchilla)
+- [Twitter](https://twitter.com/ChrisChinch)
 
 # Development
 
