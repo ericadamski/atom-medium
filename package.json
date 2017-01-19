@@ -25,5 +25,9 @@
     "medium-sdk": "0.0.3",
     "moment": "^2.13.0",
     "underscore.string": "^3.3.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.13.1"
   }
 }
