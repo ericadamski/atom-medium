@@ -1,6 +1,6 @@
 // 'use babel';
 //
-// import MediumUpload from '../lib/medium-upload';
+// import MediumUpload from '../lib/atom-medium';
 //
 // // Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
 // //
@@ -12,32 +12,32 @@
 //
 //   beforeEach(() => {
 //     workspaceElement = atom.views.getView(atom.workspace);
-//     activationPromise = atom.packages.activatePackage('medium-upload');
+//     activationPromise = atom.packages.activatePackage('atom-medium');
 //   });
 //
-//   describe('when the medium-upload:toggle event is triggered', () => {
+//   describe('when the atom-medium:toggle event is triggered', () => {
 //     it('hides and shows the modal panel', () => {
 //       // Before the activation event the view is not on the DOM, and no panel
 //       // has been created
-//       expect(workspaceElement.querySelector('.medium-upload')).not.toExist();
+//       expect(workspaceElement.querySelector('.atom-medium')).not.toExist();
 //
 //       // This is an activation event, triggering it will cause the package to be
 //       // activated.
-//       atom.commands.dispatch(workspaceElement, 'medium-upload:toggle');
+//       atom.commands.dispatch(workspaceElement, 'atom-medium:toggle');
 //
 //       waitsForPromise(() => {
 //         return activationPromise;
 //       });
 //
 //       runs(() => {
-//         expect(workspaceElement.querySelector('.medium-upload')).toExist();
+//         expect(workspaceElement.querySelector('.atom-medium')).toExist();
 //
-//         let mediumUploadElement = workspaceElement.querySelector('.medium-upload');
+//         let mediumUploadElement = workspaceElement.querySelector('.atom-medium');
 //         expect(mediumUploadElement).toExist();
 //
 //         let mediumUploadPanel = atom.workspace.panelForItem(mediumUploadElement);
 //         expect(mediumUploadPanel.isVisible()).toBe(true);
-//         atom.commands.dispatch(workspaceElement, 'medium-upload:toggle');
+//         atom.commands.dispatch(workspaceElement, 'atom-medium:toggle');
 //         expect(mediumUploadPanel.isVisible()).toBe(false);
 //       });
 //     });
@@ -51,11 +51,11 @@
 //       // workspaceElement to the DOM are generally slower than those off DOM.
 //       jasmine.attachToDOM(workspaceElement);
 //
-//       expect(workspaceElement.querySelector('.medium-upload')).not.toExist();
+//       expect(workspaceElement.querySelector('.atom-medium')).not.toExist();
 //
 //       // This is an activation event, triggering it causes the package to be
 //       // activated.
-//       atom.commands.dispatch(workspaceElement, 'medium-upload:toggle');
+//       atom.commands.dispatch(workspaceElement, 'atom-medium:toggle');
 //
 //       waitsForPromise(() => {
 //         return activationPromise;
@@ -63,9 +63,9 @@
 //
 //       runs(() => {
 //         // Now we can test for view visibility
-//         let mediumUploadElement = workspaceElement.querySelector('.medium-upload');
+//         let mediumUploadElement = workspaceElement.querySelector('.atom-medium');
 //         expect(mediumUploadElement).toBeVisible();
-//         atom.commands.dispatch(workspaceElement, 'medium-upload:toggle');
+//         atom.commands.dispatch(workspaceElement, 'atom-medium:toggle');
 //         expect(mediumUploadElement).not.toBeVisible();
 //       });
 //     });

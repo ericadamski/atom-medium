@@ -3,7 +3,7 @@
     "atom-text-editor": [
       {
         "label": "Use as Medium Post",
-        "command": "medium-upload:toggle"
+        "command": "atom-medium:toggle"
       }
     ]
   },
@@ -12,11 +12,11 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "medium-upload",
+          "label": "atom-medium",
           "submenu": [
             {
               "label": "Use as Medium Post",
-              "command": "medium-upload:toggle"
+              "command": "atom-medium:toggle"
             }
           ]
         }
