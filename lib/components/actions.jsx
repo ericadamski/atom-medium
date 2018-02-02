@@ -55,11 +55,20 @@ function post(draft = true) {
         const editor = atom.workspace.getActiveTextEditor();
 
         if (canPublish(editor)) {
-            return console.log({
-                draft,
-                title: getTitle(editor),
-                content: getContent(editor),
-            });
+            return publish(
+                getTitle(editor),
+                getContent(editor),
+                draft
+            ).subscribe(
+                ({ url, title }) =>
+                    atom.notifications.addSuccess(
+                        `Congrats 🎉, your article ${title} has been uploaded. You can find it here ${url}`
+                    ),
+                () =>
+                    atom.notifications.addError(
+                        'Sorry 😓, there was some sort of error uploading your article.'
+                    )
+            );
         }
 
         atom.notifications.addError(

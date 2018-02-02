@@ -14,8 +14,8 @@ export default class Status extends Component {
     componentDidMount() {
         const editor = atom.workspace.getActiveTextEditor();
 
-        atom.workspace.onDidChangeActiveTextEditor(editor =>
-            this.setState({ post: editor.getTitle() })
+        atom.workspace.onDidChangeActiveTextEditor(
+            editor => editor && this.setState({ post: editor.getTitle() })
         );
 
         editor.onDidChangeTitle(title => this.setState({ post: title }));
