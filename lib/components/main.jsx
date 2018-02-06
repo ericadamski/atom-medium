@@ -5,6 +5,7 @@ import styled from 'styled-components';
 
 import User from './user.jsx';
 import Status from './status.jsx';
+import Menu from './menu.jsx';
 
 const Container = styled.div`
     max-height: 10rem;
@@ -22,6 +23,7 @@ export default class Main extends Component {
             <Container>
                 <Status />
                 <User />
+                <Menu />
             </Container>
         );
     }
