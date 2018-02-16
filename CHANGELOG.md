@@ -1,4 +1,8 @@
-## 0.1.3 [Unreleased]
+## 1.0.0
+
+* Re-write package using RxJS and React to allow for more work to be done in an easier more logical code base.
+
+## 0.1.3
 * [Stop using reserved JavaScript keyword `package`](https://github.com/ericadamski/atom-medium-upload/pull/9)
 
 ## 0.1.2
