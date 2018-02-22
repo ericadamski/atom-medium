@@ -152,9 +152,9 @@ react-dom@^16.2.0:
     object-assign "^4.1.1"
     prop-types "^15.6.0"
 
-react-markdown-menu@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/react-markdown-menu/-/react-markdown-menu-1.1.1.tgz#21c252f5fb8ef55bf7fe27c257d0eee3b35e11b5"
+react-markdown-menu@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/react-markdown-menu/-/react-markdown-menu-1.2.1.tgz#bef1ac49ca79d0109edc4a31e20ece36f1568dee"
   dependencies:
     prop-types "^15.6.0"
     ramda "^0.25.0"
