@@ -1,8 +1,8 @@
 {
-  "name": "medium-upload",
+  "name": "atom-medium",
   "main": "./lib/medium-upload",
-  "version": "0.1.3",
-  "description": "Write a blog entry and upload it directly to Medium.",
+  "version": "2.0.1",
+  "description": "Write and upload a story directly to Medium.",
   "contributors": [
     "Eric Adamski <er.adamski@gmail.com>",
     "Chris Ward <chriswhward@gmail.com>"
@@ -15,7 +15,7 @@
   "activationCommands": {
     "atom-workspace": "medium-upload:toggle"
   },
-  "repository": "https://github.com/ericadamski/atom-medium-upload",
+  "repository": "https://github.com/ericadamski/atom-medium",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
