@@ -16,8 +16,12 @@ ex. filename 'My-Post.md' story title 'My Post'
 
 # Road map
 
-- Implement Medium like editor inside Atom (without auto rendering)
-- Allow for image upload (when the Medium Node SDK allows for it)
+- [ ] Tests
+- [ ] Implement Medium like editor inside Atom (without auto rendering)
+- [ ] Allow for image upload (when the Medium Node SDK allows for it)
+- [ ] Also handle HTML files
+- [ ] Allow for more configuration of posts
+- [ ] Updates to posts
 
 # Collaborators
 
