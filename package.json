@@ -1,7 +1,7 @@
 {
   "name": "medium-upload",
   "main": "./lib/medium-upload",
-  "version": "0.1.4",
+  "version": "1.0.0",
   "description": "Write a blog entry and upload it directly to Medium.",
   "contributors": [
     "Eric Adamski <er.adamski@gmail.com>",
@@ -21,9 +21,19 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "jquery": "^3.0.0",
     "medium-sdk": "0.0.3",
     "moment": "^2.13.0",
+    "prop-types": "^15.6.0",
+    "ramda": "^0.25.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "rxjs": "^5.5.6",
+    "styled-components": "^3.1.4",
     "underscore.string": "^3.3.4"
+  },
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "prettier": "^1.10.2",
+    "sinon": "^4.2.2"
   }
 }
