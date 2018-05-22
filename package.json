@@ -1,5 +1,5 @@
 {
-  "name": "medium-upload",
+  "name": "atom-medium",
   "main": "./lib/medium-upload",
   "version": "2.0.0",
   "description": "Write a blog entry and upload it directly to Medium.",
