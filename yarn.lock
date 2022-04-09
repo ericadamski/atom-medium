@@ -352,9 +352,9 @@ medium-sdk@0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/medium-sdk/-/medium-sdk-0.0.3.tgz#13dea6fda76f46dbb6c39de01ca1c0dbd7b32745"
 
-moment@^2.13.0:
-  version "2.20.1"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.20.1.tgz#d6eb1a46cbcc14a2b2f9434112c1ff8907f313fd"
+moment@^2.29.2:
+  version "2.29.2"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.2.tgz#00910c60b20843bcba52d37d58c628b47b1f20e4"
 
 nearley@^2.7.10:
   version "2.11.0"
