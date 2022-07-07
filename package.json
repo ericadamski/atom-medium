@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "medium-sdk": "0.0.3",
-    "moment": "^2.13.0",
+    "moment": "^2.29.4",
     "prop-types": "^15.6.0",
     "ramda": "^0.25.0",
     "react": "^16.2.0",
